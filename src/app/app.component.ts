@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  propiedad:string="kevin jovel"
   title = 'pipesApp';
 }
