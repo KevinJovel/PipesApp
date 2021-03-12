@@ -1,4 +1,5 @@
 # PipesApp
+<<<<<<< HEAD
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
 
@@ -25,3 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+Aplicación web para el manejo de pipes en Angular.
+>>>>>>> b0a3433827b80aef3ef46d4e9443a3b9a427c0b6
