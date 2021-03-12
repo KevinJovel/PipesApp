@@ -5,11 +5,18 @@ import { NoComunesComponent } from './pages/no-comunes/no-comunes.component';
 import { BasicosComponent } from './pages/basicos/basicos.component';
 import { OrdenarComponent } from './pages/ordenar/ordenar.component';
 import { PrimeNGModule } from '../prime-ng/prime-ng.module';
+import { MayusculaPipe } from './pipes/mayuscula.pipe';
 
 
 
 @NgModule({
-  declarations: [NumerosComponent, NoComunesComponent, BasicosComponent, OrdenarComponent],
+  declarations: [
+    MayusculaPipe,
+    NumerosComponent,
+    NoComunesComponent,
+    BasicosComponent,
+    OrdenarComponent
+  ],
   imports: [
     CommonModule,
     PrimeNGModule

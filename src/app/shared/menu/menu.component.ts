@@ -20,7 +20,7 @@ export class MenuComponent implements OnInit {
         items:[
           {
             label:'Básicos',
-            icon:'pi-align-left',
+            icon:'pi pi-align-left',
             routerLink:'/'
           },
           {
@@ -32,20 +32,6 @@ export class MenuComponent implements OnInit {
             label:'Números',
             icon:'pi pi-sort-numeric-up',
             routerLink:'numeros'
-          },
-          {
-            label:'Ordenar',
-            icon:'pi pi-sort',
-            routerLink:'ordenar'
-          }
-        ]
-      },
-      {
-        label:'Pipes personalizados',
-        icon:'pi pi-cog',
-        items:[
-          {
-            label:'personalizacion 1'
           }
         ]
       }

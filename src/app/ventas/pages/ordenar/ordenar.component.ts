@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class OrdenarComponent implements OnInit {
-
+  texto:string='Hola mundo';
   constructor() { }
 
   ngOnInit(): void {
